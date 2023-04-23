@@ -1,32 +1,13 @@
-# template
+# nuroendocrine-cytology
 
 
 
-**template for pathology atlas repositories**
-
-
-
-
-> see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
+**nuroendocrine-cytology for pathology atlas repositories**
 
 
 
 
-> do not forget to activate github pages for the new repository
-
-
-
-
-```zsh
-
-vips dzsave HE.svs HE
-
-```
-
-
-
-
-```{r language template, echo=FALSE, include=TRUE}
+```{r language nuroendocrine-cytology, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
@@ -37,7 +18,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## TemplateTR
+## Nöroendokrin Tümör Sitolojisi Giemsa
 
 ```
 
@@ -46,7 +27,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## TemplateEN
+## Neuroendocrine Tumor Cytology Giemsa
 
 ```
 
@@ -55,14 +36,14 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-**templateTR**
+**Nöroendokrin Tümör Sitolojisi Giemsa**
 
 
-[https://images.patolojiatlasi.com/template/HE.html](https://images.patolojiatlasi.com/template/HE.html)
+[https://images.patolojiatlasi.com/nuroendocrine-cytology/giemsa.html](https://images.patolojiatlasi.com/nuroendocrine-cytology/giemsa.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/nuroendocrine-cytology/giemsa.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -71,14 +52,14 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "EN")}
 
-**templateEN**
+**Neuroendocrine Tumor Cytology Giemsa**
 
 
-[https://images.patolojiatlasi.com/template/HE.html](https://images.patolojiatlasi.com/template/HE.html)
+[https://images.patolojiatlasi.com/nuroendocrine-cytology/giemsa.html](https://images.patolojiatlasi.com/nuroendocrine-cytology/giemsa.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/nuroendocrine-cytology/giemsa.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
